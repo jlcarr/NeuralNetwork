@@ -1,10 +1,6 @@
 # NeuralNetwork
 A C++ library for creating and training artificial neural networks
 
-
-# NeuralNetwork
-A C++ library for creating and training artificial neural networks
-
 ## Features
 * Uses standard C++11 library.
 * Simple design and usage.
@@ -15,7 +11,7 @@ None required; simply dowload the library, then include it in your main.cpp
 
 ## Usage Examples
 ### Creating a Neural Network
-
+To create a basic neural network with 2 inputs, 1 output and one hidden layer with 2 neurons
 ```c++
 NeuralNetwork<string> testNeuralNetwork;
 
@@ -52,7 +48,7 @@ i1(0) -> h2(0.25), h1(0.75),
 ```
 
 ### Training a Neural Network
-
+To train the neural network created in the example above to replicate an XOR gate
 ```c++
 //perform training on given data by backpropagation
 //data is given is that of an XOR gate
